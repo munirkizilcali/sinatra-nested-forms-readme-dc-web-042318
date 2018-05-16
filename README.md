@@ -1,5 +1,5 @@
 # Nested Forms Readme
-
+ 
 ## Overview
 
 In this code-along lesson, we'll cover nested forms that can create multiple objects.
@@ -299,7 +299,7 @@ Then we iterate over `params[:student][:courses]`, which is an array containing 
   }
 ]
 ```
-
+ 
 During the iterative process, we use the course values passed into the `.each` block to create instances of our `Course` class. We store the instantiated courses in the instance variable `@courses`, making the course information available within our view, `student.erb`.
 
 Finally, the controller action loads the erb file `student.erb`, and we can see all of the newly-created student and course information in the browser.
